@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey form</title>
+</head>
+<style>
+  body {
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  
+
+
+    width: 100%;
+    height: 100%;
+  }
+
+  div.form {
+color: white ;
+    background:indigo;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 3% 19% 0% 27%;
+    padding: 9px 0px 0px 40px;
+    
+    
+  }
+
+  
+
+
+  
+
+
+  #name {
+    font-size: 20px;
+    width: 600px;
+    height: 35px;
+
+  }
+
+  #Email {
+    font-size: 20px;
+    width: 600px;
+    height: 35px;
+
+  }
+
+  #age {
+    font-size: 20px;
+    width: 600px;
+    height: 35px;
+
+
+  }
+
+  #rule {
+    font-size: 20px;
+    width: 600px;
+    height: 35px;
+
+  
+
+
+  }
+
+  #comment {
+    font-size: 20px;
+    width: 600px;
+    height: 100px;
+    text-align: start;
+
+  }
+
+  #ali {
+    background-color:lightgreen;
+    font-size: 20px;
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    margin: 42px 0px 30px 0px;
+
+
+
+  }
+
+  #amir {
+    margin-right: 200px;
+
+  }
+
+  #sajjad {
+    margin-right: 170px;
+
+  }
+
+  #asim {
+    margin-right: 190px;
+  }
+
+  #umair {
+    margin-right: 100px;
+    
+  }
+
+  #mohsin {
+    
+    margin-right: 340px;
+  }
+  h1.survey{
+
+    color: white;
+    padding: 30 0px 0px 0px ;
+    text-align: center;
+    
+  }
+  p.platform{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+  }
+  #one{
+  font-size: 0px;
+  }
+  #drop{
+    height: 42px;
+    width: 95%;
+    font-size: 20px;
+  }
+  #favorite{
+width: 95%;
+height: 40px;
+font-size: 20px;
+  }
+  
+
+  
+  
+</style>
+
+<body>
+  <h1 class="survey">
+    freeCodeCamp Survey Form
+  </h1>
+  <p class="platform">
+    <cite> Thank you for taking the time to help us improve the platform</cite>
+  </p>
+
+  <div class="form">
+    <form>
+      <label for="name">Name</label>
+      <br>
+      <input type="text" id="name" name="name" value="Enter your name"><br>
+      Email<br>
+      <input type="text" id="Email" name="Email" value="Enter your Email"><br>
+      Age(optional)<br>
+      <input type="number" id="age" min="10" max="99" placeholder="Age"><br>
+      
+        
+
+      <p>
+         Which option best describes your current role?
+      </p>
+      <select name="role" id="drop">
+        <option value="select curnt role">select currnt role</option>
+        <option value="students">students</option>
+        <option value="teacher">teacher</option>
+        <option value="professer">professer</option>
+      </select>
+      
+
+      </br>
+
+      <p id="sajjad">
+        <strong> Would you recommend freeCodeCamp to a friend?</strong><br>
+
+        <input type="radio" id="one" value="Definitely">
+        <label>Definitely</label> <br>
+
+        <input type="radio" id="two" value="Maybe">
+        <label>Maybe</label><br>
+
+        <input type="radio" id="three" value="Notsure">
+        <label>Not sure</label><br>
+        <p>
+           What is your favorite feature of freeCodeCamp?
+          </p>
+           <select name="role" id="favorite">
+             <option value="select an option">select an option</option>
+             <option value="challenges">challenges</option>
+             
+             <option value="projects">project</option>
+             <option value="communty">community</option>
+             <option value="open source">open source</option>
+           </select>
+
+        
+        
+
+
+        <p id="umair">
+          <strong> What would you like to see improved? (Check all that apply)</strong>
+
+        </p>
+
+
+        <input type="checkbox" value="front-end project">
+        <label>Front-end project</label><br>
+        <input type="checkbox" value="Back-end project">
+        <label>Back-end project</label><br>
+
+        <input type="checkbox" value="Data Visualization">
+        <label>Data Visualization</label><br>
+
+        <input type="checkbox" value="Challenges">
+        <label>Challenges</label><br>
+        <input type="checkbox" value="Open Source Community">
+        <label>Open Source Community</label><br>
+
+        <input type="checkbox" value="Gitter help rooms">
+        <label>Gitter help rooms</label><br>
+
+        <input type="checkbox" value="Videos">
+        <label>Videos</label><br>
+
+        <input type="checkbox" value="City Meetups">
+        <label>City Meetups</label><br>
+
+        <input type="checkbox" value="Wiki">
+
+        <label>Wiki</label><br>
+
+        <input type="checkbox" value="Forum">
+
+        <label>Forum</label><br>
+
+        <input type="checkbox" value="Additional Courses">
+
+        <label>Additional Courses</label><br>
+        <p id="mohsin"><strong>Any comments or suggestions?</strong></p>
+        <input type="text" id="comment" value="Enter your comment here..."><br>
+
+        <input type="submit" id="ali" value="submit">
+      </p>
+
+  </div>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
